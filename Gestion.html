@@ -3,47 +3,58 @@
 
 <head>
     <meta charset="utf-8">
-    <title>SingIn_Cambalaches.net</title>
+    <title>Gestion_Cambalaches.net</title>
     <link rel="stylesheet" href="Estilos.css">
 </head>
 
 <body>
-    <nav class="header_menu">
-        <ul>
-            <img src="" alt="mini_image">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="Public.html">Cambalaches</a></li>
-            <li><a href="Dashboard.html">Dashboard</a> </li>
-            <li>*Mi Carrito</li>
-        </ul>
-    </nav>
-    <header>
-        <h1>
-            Administrar Producto
-        </h1>
-        <hr />
-    </header>
-    <section class=edit_product>
-        <p>Ingrese aquí la información del Producto que quiera incluir en Cambalache.net</p>
+    <section class="composed_head">
+        <nav class="header_menu">
+            <img class="mini_img" src="Felix.png" alt="mini_image">
+            <ul class="main_menu">
+                <li class="linked"><a href="index.html">Inicio</a></li>
+                <li class="linked"><a href="Public.html">Cambalaches</a></li>
+                <li class="linked"><a href="Dashboard.html">Dashboard</a> </li>
+                <li class="carrito">Mi Carrito</li>
+            </ul>
+        </nav>
+        <header>
+            <h1>
+                Gestionar Producto
+            </h1>
+            <hr class="top_hr" />
 
-        <div>
-            <input type="text" name="" id="" value="Nombre del Producto">
-        </div>
-        <div>
-            <input type="text" name="" id="" value="Descripcion">
-        </div>
-        <div>
-            <input type="text" name="" id="" value="Archivo de Imagen">
-        </div>
-        <div>
-            <input type="text" name="" id="" value="Me interesa: ...">
-        </div>
-        <hr />
-
-        <button>Guardar</button>
-        <button>Cancelar</button>
+        </header>
     </section>
-    <hr />
+    <div class="leyenda">
+        <p class="leyenda">Ingrese aquí la información del Producto que quiera incluir en Cambalache.net</p>
+    </div>
+
+    <section class="edit_product">
+
+
+        <div class="edit">
+            <div class="name_product">
+                <input type="text" name="" id="" value="Nombre del Producto">
+            </div>
+
+            <input class="product_description" type="text" name="" id="" value="Descripcion">
+
+            <input class="img_file" type="text" name="" id="" value="Archivo de Imagen">
+
+            <input class="search_deal" type="text" name="" id="" value="Me interesa: ...">
+        </div>
+
+        <br />
+        <div class="save">
+            <hr class="center_hr" />
+            <button class="btn_guardar"> <a href="Dashboard.html">Guardar</a> </button>
+            <button class="btn_cancelar">Cancelar</button>
+        </div>
+
+
+    </section>
+
     <footer>
         <nav class="footer_menu">
             <ul>
@@ -53,9 +64,10 @@
                 <li> <a href="Login.html">Ingresar</a> </li>
             </ul>
         </nav>
-
-        <img src="" alt="mini_image">
-        <p>Cambalaches.net</p>
+        <div class="nombre_logo">
+            <img class="mini_img" src="Felix.png" alt="mini_image">
+            <p>Cambalaches.net</p>
+        </div>
     </footer>
 </body>
 

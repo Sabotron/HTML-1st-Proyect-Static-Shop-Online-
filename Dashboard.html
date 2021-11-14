@@ -3,70 +3,89 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Cambalaches">
-    <meta name="keywords" content="cambalache,dashboard">
     <title>Dashboard_Cambalaches.net</title>
-    <link rel="stylesheet" href="CSS_estilos/Estilos.css">
+    <link rel="stylesheet" href="Estilos.css">
 </head>
 
 <body>
-    <nav class="header_menu">
-        <ul>
-            <img src="" alt="mini_image">
-            <li> <a href="index.html">Inicio</a> </li>
-            <li> <a href="Product.html">Cambalaches</a> </li>
-            <li>*Cerrar Sesión</li>
-            <li>*Mi Carrito</li>
-        </ul>
+    <section class="composed_head">
+        <nav class="header_menu">
+            <img class="mini_img" src="Felix.png" alt="mini_image">
+            <ul class="main_menu">
 
-    </nav>
-    <header>
+                <li class="linked"> <a href="index.html">Inicio</a> </li>
+                <li class="linked"> <a href="Product.html">Cambalaches</a> </li>
+                <li class="linked"> <a href="Login.html">Cerrar Sesión</a> </li>
+                <li class="carrito">Mi Carrito</li>
+            </ul>
 
-        <h1>
-            Dashboard
-        </h1>
-        <p>Bienvenido Fulano, aquí podrá encontrar el estado actual de sus Cambalaches y productos registrados.</p>
-    </header>
+        </nav>
+        <header>
+            <h1>
+                Dashboard
+            </h1>
+            <hr class="top_hr" />
+
+        </header>
+    </section>
+
     <section class="new_cambalache">
-        <div class="new_button">
-            <button> <a href="Gestion.html">Nuevo</a> </button>
-        </div>
+        <p class="leyenda">Bienvenido usuario, aquí podrá encontrar el estado actual de sus Cambalaches y
+            productos
+            registrados.</p>
+
     </section>
-    <section class="product">
-        <div>
-            <img src="" alt="img_product_1">
-            <p>Product_1</p>
-            <button>Editar</button>
-            <br/>
-            <button>Eliminar</button>
+
+    <section class="new_products">
+        <div class="new_product">
+            <button class=btn_new> <a href="Gestion.html">Nuevo</a> </button>
         </div>
-        <div>
-            <img src="" alt="img_product_2">
-            <p>Product_2</p>
-            <button>Editar</button>
-            <br/>
-            <button>Eliminar</button>
+        <div class="dashboard_product">
+   
+            <div class="product">
+                <img class="thumbnail" src="empty.png" alt="img_product_1">
+                <div>
+                    <p>Product</p>
+                    <button class="btn_editar">Editar</button>
+                    <br />
+                    <button class="btn_eliminar">Eliminar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="empty.png" alt="img_product_1">
+                <div>
+                    <p>Product</p>
+                    <button class="btn_editar">Editar</button>
+                    <br />
+                    <button class="btn_eliminar">Eliminar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="empty.png" alt="img_product_1">
+                <div>
+                    <p>Product</p>
+                    <button class="btn_editar">Editar</button>
+                    <br />
+                    <button class="btn_eliminar">Eliminar</button>
+                </div>
+            </div>
+
         </div>
-        <div>
-            <img src="" alt="img_product_3">
-            <p>Product_3</p>
-            <button>Editar</button>
-            <br/>
-            <button>Eliminar</button>
-        </div>
+
     </section>
-    <hr />
+
     <footer>
         <nav class="footer_menu">
             <ul>
-                <li> <a href="index.html">Inicio</a> </li>
-                <li> <a href="Public.html">Cambalaches</a> </li>
-                <li>  <a href="Login.html">Ingresar</a></li>
+                <li class="linked"> <a href="index.html">Inicio</a> </li>
+                <li class="linked"> <a href="Public.html">Cambalaches</a> </li>
+                <li class="linker"> <a href="Login.html">Ingresar</a></li>
             </ul>
         </nav>
-
-        <img src="" alt="mini_image">
-        <p>Cambalaches.net</p>
+        <div class="nombre_logo">
+            <img class="mini_img" src="Felix.png" alt="mini_image">
+            <p>Cambalaches.net</p>
+        </div>
     </footer>
 </body>
 
